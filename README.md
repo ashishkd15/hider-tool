@@ -1,12 +1,17 @@
-# React + Vite
+The **Hider Tool** is a React.js application that allows users to hide/unhide text with password protection.  
+It also demonstrates integration with a free API (**JSONPlaceholder**) to fetch and display random user data.  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+**Features**
+Password Protection – Only authorized users can access the tool  
+Hide & Unhide Text – Save hidden text securely in LocalStorage  
+API Integration – Fetch random data from JSONPlaceholder API  
+Clean UI – Built with React.js + CSS
+Persistent Storage – Data remains available even after page reload  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Tech Stack
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**React.js** (Frontend Framework)  
+**HTML5 & CSS3** (UI & Styling)  
+**LocalStorage** (Browser storage)  
+**JSONPlaceholder API** (Random data fetching) 
