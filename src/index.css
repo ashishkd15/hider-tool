@@ -1,0 +1,39 @@
+/* Full screen centering */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   /* Vertical center */
+  align-items: center;       /* Horizontal center */
+  min-height: 100vh;
+  background: #f3f4f6;       /* Light gray background */
+  padding: 20px;
+}
+
+/* Card style for Hider Tool */
+.card {
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 400px;
+  text-align: center;
+}
+
+/* Headings */
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #111827;
+}
+
+/* API Data section (keep same look but centered) */
+.api-box {
+  margin-top: 25px;
+  padding: 15px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  background: #fff;
+  width: 400px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
